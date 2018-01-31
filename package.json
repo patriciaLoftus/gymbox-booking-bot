@@ -1,0 +1,27 @@
+{
+  "name": "gymbox-class-booker",
+  "version": "1.0.0",
+  "description": "book gymbox classes programatically so you can sleep in",
+  "main": "app.js",
+  "engines": {
+    "node": "4.2.2"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.6.1",
+    "moment": "^2.17.0",
+    "moment-timezone": "^0.5.13",
+    "node-cron": "^1.2.1",
+    "node-horseman": "^2.8.2",
+    "node-schedule": "^0.2.6",
+    "phantomjs": "^2.1.3",
+    "q": "^1.4.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@patriciaLoftus"
+}

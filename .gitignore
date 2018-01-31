@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+schedule.js
+package-lock.json
