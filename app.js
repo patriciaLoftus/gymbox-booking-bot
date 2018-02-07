@@ -3,7 +3,7 @@ const moment = require('moment');
 const momentTz = require('moment-timezone');
 const config = require('./config');
 const Booker = require('./lib/booker');
-const schedule = JSON.parse(config.schedule);
+const schedule = config.schedule;
 const booker = new Booker(schedule);
 
 const run = () => {
