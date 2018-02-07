@@ -1,9 +1,10 @@
 const cron = require('node-cron');
 const moment = require('moment');
 const momentTz = require('moment-timezone');
-var config = require('./config');
-var Booker = require('./lib/booker');
-var booker = new Booker(config.schedule);
+const config = require('./config');
+const Booker = require('./lib/booker');
+const schedule = JSON.parse(config.schedule);
+const booker = new Booker(schedule);
 
 const run = () => {
   console.log('\n');
