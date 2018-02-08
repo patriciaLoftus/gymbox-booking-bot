@@ -1,7 +1,7 @@
 module.exports = {
   email : process.env.email,
   password : process.env.password,
-  schedule: JSON.parse(process.env.schedule),
+  schedule: {},
   gyms: {
       Bank: 5,
       CoventGarden: 3,

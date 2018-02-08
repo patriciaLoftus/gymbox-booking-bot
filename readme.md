@@ -15,7 +15,6 @@ npm install phantomjs -g
 |------------|---------------------------------------|
 | `USERNAME` | Username used to login to Gymbox      |
 | `PASSWORD` | Password used to login to Gymbox      |
-| `SCHEDULE` | JSON schedule for the classes to book |
 
 ## Example JSON Schedule
 
